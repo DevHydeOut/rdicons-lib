@@ -1,6 +1,6 @@
 # rd icons
 
-268 free line icons on a 24 x 24 grid: 1.5 px stroke, round caps and joins, soft corners and an open top-right corner on container shapes. Every icon also has a hover animation.
+343 free line icons on a 24 x 24 grid: 1.5 px stroke, round caps and joins, soft corners and an open top-right corner on container shapes. Every icon also has a hover animation.
 
 Browse, customise and download them at **https://rdicons.vimalbhatt.com/library/rd**.
 
@@ -22,8 +22,8 @@ Or copy a file from [`svg/`](svg) (static) or [`svg-animated/`](svg-animated) (a
 
 | Folder or file | What it is |
 | --- | --- |
-| [`svg/`](svg) | 268 static icons, `currentColor` |
-| [`svg-animated/`](svg-animated) | 268 animated icons (CSS inside the SVG) |
+| [`svg/`](svg) | 343 static icons, `currentColor` |
+| [`svg-animated/`](svg-animated) | 343 animated icons (CSS inside the SVG) |
 | `icons.json` | all icons in the Iconify format |
 | `animations.json` | animated drawing and CSS for each icon |
 | [`STYLE.md`](STYLE.md), [`MOTION.md`](MOTION.md) | the drawing and animation rules |
