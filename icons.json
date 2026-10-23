@@ -1469,6 +1469,102 @@
   },
   "folder-up": {
    "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M20.13 8.61A4 4 0 0 1 20.5 10.3v6.2a4 4 0 0 1-4 4h-9a4 4 0 0 1-4-4v-9a4 4 0 0 1 4-4h1.6a3 3 0 0 1 2.2 1l.7.8a3 3 0 0 0 2.2 1h2.3a4 4 0 0 1 1.69.37\"/><path d=\"M12 17v-5.5M9.5 13.5l2.5-2.5 2.5 2.5\"/></g>"
+  },
+  "message-x": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M12 3.5A8 8 0 1 1 8 18.43L4.5 19.5l.570-4A8 8 0 0 1 12 3.5z\"/><path d=\"M9.5 9l5 5M14.5 9l-5 5\"/></g>"
+  },
+  "message-check": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M12 3.5A8 8 0 1 1 8 18.43L4.5 19.5l.570-4A8 8 0 0 1 12 3.5z\"/><path d=\"M9 11.5l2 2 4-4\"/></g>"
+  },
+  "message-minus": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M12 3.5A8 8 0 1 1 8 18.43L4.5 19.5l.570-4A8 8 0 0 1 12 3.5z\"/><path d=\"M9 11.5h6\"/></g>"
+  },
+  "message-question": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M12 3.5A8 8 0 1 1 8 18.43L4.5 19.5l.570-4A8 8 0 0 1 12 3.5z\"/><path d=\"M9.8 9.5a2.3 2.3 0 1 1 3.3 2.1c-.700.4-1.1.900-1.1 1.5\"/><path d=\"M12 15.2h.01\"/></g>"
+  },
+  "mail-minus": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M20.5 11V8a3 3 0 0 0-3-3h-11a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3H12\"/><path d=\"M3.5 8l8.5 5.5L20.5 8\"/><path d=\"M16 18h5\"/></g>"
+  },
+  "share-up": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M12 3.5v11M8 7l4-3.5L16 7\"/><path d=\"M5.5 12v6a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-6\"/></g>"
+  },
+  "eye-closed": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M3.5 10.5c2.5 4 5.5 5 8.5 5s6-1 8.5-5\"/><path d=\"M12 15.5v2.5M7 14.5l-1.5 2.5M17 14.5l1.5 2.5\"/></g>"
+  },
+  "contrast": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"8.5\"/><path d=\"M12 3.5a8.5 8.5 0 0 1 0 17z\"/></g>"
+  },
+  "captions": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><rect x=\"3\" y=\"5.5\" width=\"18\" height=\"13\" rx=\"3.5\"/><path d=\"M7 11.5h3M7 15h5M14 11.5h3M15 15h2\"/></g>"
+  },
+  "languages": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M4 6h8M8 4v2M6 6c0 3 2 5 5 6M10 6c0 3-2 5-5 6\"/><path d=\"M12 20l4-9 4 9M13.5 17h5\"/></g>"
+  },
+  "letter-a": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M4.5 20.5h15\"/><path d=\"M8 16L12 5.5 16 16M9.5 12.5h5\"/></g>"
+  },
+  "pound": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M16.5 7.5A3.5 3.5 0 0 0 10 9v10.5\"/><path d=\"M7 13h8M7 19.5h10\"/></g>"
+  },
+  "yen": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M7 4.5l5 7 5-7M12 11.5v8M8 14.5h8M8 17.5h8\"/></g>"
+  },
+  "bitcoin": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M8 4.5v15M8 5h5.5a3 3 0 0 1 0 6H8h6a3 3 0 0 1 0 6H8M11 3v2M13.5 3v2M11 19v2M13.5 19v2\"/></g>"
+  },
+  "sofa": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M5.5 11V8.5a3 3 0 0 1 3-3h7a3 3 0 0 1 3 3V11\"/><path d=\"M3.5 14a2 2 0 0 1 4 0v1.5h9V14a2 2 0 0 1 4 0v3.5a1.5 1.5 0 0 1-1.5 1.5h-14a1.5 1.5 0 0 1-1.5-1.5z\"/><path d=\"M6 20.5v1M18 20.5v1\"/></g>"
+  },
+  "microwave": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><rect x=\"3.5\" y=\"5\" width=\"17\" height=\"14\" rx=\"3\"/><rect x=\"6.5\" y=\"8\" width=\"8\" height=\"8\" rx=\"1.5\"/><path d=\"M17.5 9h.01\"/><path d=\"M17.5 12h.01\"/><path d=\"M17.5 15h.01\"/></g>"
+  },
+  "glass-water": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M6.5 3.5h11l-1.2 16a2 2 0 0 1-2 1.8h-4.6a2 2 0 0 1-2-1.8z\"/><path d=\"M7 9h10\"/></g>"
+  },
+  "soup": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M3.5 11h17a8.5 8.5 0 0 1-17 0z\"/><path d=\"M8 8.5c.6-.8.6-1.7 0-2.5M12 8.5c.6-.8.6-1.7 0-2.5M16 8.5c.6-.8.6-1.7 0-2.5\"/></g>"
+  },
+  "cherry": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><circle cx=\"7.5\" cy=\"17\" r=\"3\"/><circle cx=\"16.5\" cy=\"17\" r=\"3\"/><path d=\"M7.5 14c0-5 3.5-8.5 8-10M16.5 14c0-4-.5-7-1.5-9.5\"/><path d=\"M15 4.5c1.5 1 3 1 4.5 0\"/></g>"
+  },
+  "citrus": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"8.5\"/><circle cx=\"12\" cy=\"12\" r=\"5.5\"/><path d=\"M12 6.5v11M6.5 12h11M8.1 8.1l7.8 7.8M15.9 8.1l-7.8 7.8\"/></g>"
+  },
+  "backpack": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M7 9.5a5 5 0 0 1 10 0v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z\"/><path d=\"M10 5V3.5h4V5\"/><rect x=\"9\" y=\"13\" width=\"6\" height=\"4.5\" rx=\"1.5\"/></g>"
+  },
+  "ring": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"15\" r=\"5.5\"/><path d=\"M9.5 7l1.5-2.5h2L14.5 7 12 9.5z\"/></g>"
+  },
+  "divide": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M5 12h14\"/><path d=\"M12 6.5h.01\"/><path d=\"M12 17.5h.01\"/></g>"
+  },
+  "plus-minus": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M12 4.5v9M7.5 9h9M7.5 19.5h9\"/></g>"
+  },
+  "not-equal": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M5 8h14M5 15.5h14M16 4.5l-8 15\"/></g>"
+  },
+  "approx-equal": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M4.5 9.5c2-3 4-3 7.5 0s5.5 3 7.5 0M4.5 16c2-3 4-3 7.5 0s5.5 3 7.5 0\"/></g>"
+  },
+  "sqrt": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M3.5 13l3 3.5 4-10h10\"/></g>"
+  },
+  "function": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M17.5 5.5a3 3 0 0 0-5.5 1.5L11 17a3 3 0 0 1-5.5 1.5M8 11.5h7.5\"/></g>"
+  },
+  "git-fork": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><circle cx=\"6\" cy=\"5.5\" r=\"2.5\"/><circle cx=\"18\" cy=\"5.5\" r=\"2.5\"/><circle cx=\"12\" cy=\"18.5\" r=\"2.5\"/><path d=\"M6 8v2.5a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8M12 12.5V16\"/></g>"
+  },
+  "sticker": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M13.5 20.5H7a3.5 3.5 0 0 1-3.5-3.5V7A3.5 3.5 0 0 1 7 3.5h10A3.5 3.5 0 0 1 20.5 7v6.5z\"/><path d=\"M20.5 13.5h-4A3 3 0 0 0 13.5 16.5v4z\"/></g>"
+  },
+  "bookmark-x": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M7 4.5h10a1.5 1.5 0 0 1 1.5 1.5v14.2L12 16l-6.5 4.2V6A1.5 1.5 0 0 1 7 4.5z\"/><path d=\"M9.5 8.5l5 5M14.5 8.5l-5 5\"/></g>"
+  },
+  "bookmark-minus": {
+   "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"M7 4.5h10a1.5 1.5 0 0 1 1.5 1.5v14.2L12 16l-6.5 4.2V6A1.5 1.5 0 0 1 7 4.5z\"/><path d=\"M9.5 10.5h5\"/></g>"
   }
  }
 }
