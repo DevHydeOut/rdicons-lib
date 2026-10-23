@@ -157,7 +157,7 @@ Full guide: [STYLE.md](STYLE.md).
 | Average SVG | 286 bytes |
 | All SVGs | 151.4 KB (543 files) |
 | `icons.json` | 147.5 KB (19.2 KB gzipped), Iconify format |
-| `animations.json` | 632.5 KB (61.6 KB gzipped) |
+| `animations.json` | 636.4 KB (62.4 KB gzipped) |
 | Licence | MIT |
 | Last updated | 2026-10-23 |
 
