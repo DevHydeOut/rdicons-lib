@@ -71,7 +71,7 @@ The files in [`svg-animated/`](svg-animated) carry their own CSS. Paste one into
 <svg viewBox="0 0 24 24" width="24" height="24" class="rd-a-bell" data-rd-animate="hover"> … </svg>
 ```
 
-### 3. React (npm, coming soon)
+### 3. React (npm)
 
 ```bash
 npm i @rdicons/react-rd
@@ -94,7 +94,7 @@ import { Home, Bell, Rocket } from '@rdicons/react-rd'
 | `speed` | `1` | `2` is twice as fast, `0.5` twice as slow |
 | `className`, … | | any SVG prop is passed through |
 
-### 4. The command line (npm, coming soon)
+### 4. The command line (npm)
 
 ```bash
 npx rdicons add rd:bell rd:rocket rd:heart --format tsx --out src/icons
