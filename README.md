@@ -464,13 +464,13 @@ Full guide: [STYLE.md](STYLE.md).
 
 ## Contribute
 
-Found an icon that looks off, or want one added? [Open an issue](../../issues) with the name and a sketch or reference, and keep to [STYLE.md](STYLE.md). The icons are generated from a private source, so accepted changes are applied there and published here. Pull requests that improve the documentation are welcome.
+**Want an icon that is not here?** [Request it](https://rdicons.vimalbhatt.com/request-icon) (or [open an icon request](../../issues/new?template=icon-request.yml) directly) and press 👍 on the requests you want: the most voted ones are drawn next, and every new icon comes with its own animation. Found an icon that looks off? [Open an issue](../../issues) with the name and a sketch or reference, and keep to [STYLE.md](STYLE.md). The icons are generated from a private source, so accepted changes are applied there and published here. Pull requests that improve the documentation are welcome.
 
 ## Roadmap
 
-- npm packages: `@rdicons/react-rd`, `@rdicons/react` and the `rdicons` command line
-- Figma Community listing
-- more icons, driven by what people ask for
+- Figma Community listing (the plugin is in review)
+- Vue and Svelte packages
+- more icons, driven by what people ask for ([request one](https://rdicons.vimalbhatt.com/request-icon))
 
 ## License
 

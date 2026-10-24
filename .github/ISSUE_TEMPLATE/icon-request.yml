@@ -1,0 +1,55 @@
+name: Icon request
+description: Ask for an icon to be added to the rd library. The most voted requests are drawn next.
+title: 'Icon request: '
+labels: ['icon-request']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to decide what gets drawn next. Press 👍 on requests you also want: votes decide the order.
+        Please check the [rd library](https://rdicons.vimalbhatt.com/library/rd) first, the icon may already exist.
+  - type: input
+    id: icon-name
+    attributes:
+      label: Icon name
+      description: What should the icon show? One or two words, for example "wheelchair" or "piggy bank".
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Where would you use it?
+      description: A short description helps us draw the right thing (for example "a settings page of a smart-home app").
+    validations:
+      required: false
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference or sketch (optional)
+      description: A link or a pasted image of what you have in mind. Not a copy of someone else's artwork, please.
+    validations:
+      required: false
+  - type: dropdown
+    id: group
+    attributes:
+      label: Which group does it belong to?
+      options:
+        - Interface and arrows
+        - Files, folders and data
+        - Developer tools
+        - Business and money
+        - People and communication
+        - Health, food and travel
+        - Home, nature and weather
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you send
+      options:
+        - label: This is not a company logo or brand mark, and not a copy of another icon set.
+          required: true
+        - label: I understand the icon will be released under the MIT license like the rest of rd.
+          required: true
