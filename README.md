@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://rdicons.vimalbhatt.com/library/rd"><b>Browse online</b></a> ·
   <a href="https://rdicons.vimalbhatt.com/download/desktop">Desktop app</a> ·
-  <a href="#5-figma-plugin">Figma plugin</a> ·
+  <a href="#6-figma-plugin">Figma plugin</a> ·
   <a href="#use-it">Use it</a> ·
   <a href="#animation">Animation</a> ·
   <a href="#all-icons-by-category">All icons</a>
@@ -94,19 +94,28 @@ import { Home, Bell, Rocket } from '@rdicons/react-rd'
 | `speed` | `1` | `2` is twice as fast, `0.5` twice as slow |
 | `className`, … | | any SVG prop is passed through |
 
-### 4. The command line (npm)
+### 4. Vue and Svelte (npm)
+
+```bash
+npm i @rdicons/vue-rd       # Vue 3
+npm i @rdicons/svelte-rd    # Svelte 5
+```
+
+Same names and props as the React package: `<Bell animate />`, `<Rocket animate="loop" speed={1.5} />`. Only the rd icons are in these two packages.
+
+### 5. The command line (npm)
 
 ```bash
 npx rdicons add rd:bell rd:rocket rd:heart --format tsx --out src/icons
 ```
 
-### 5. Figma plugin
+### 6. Figma plugin
 
 Search all 622 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
-### 6. Desktop app
+### 7. Desktop app
 
 A small Windows app to search, customise and export icons without the browser: [download](https://rdicons.vimalbhatt.com/download/desktop).
 
@@ -469,7 +478,7 @@ Full guide: [STYLE.md](STYLE.md).
 ## Roadmap
 
 - Figma Community listing (the plugin is in review)
-- Vue and Svelte packages
+- Vue and Svelte packages for the other 18 libraries
 - more icons, driven by what people ask for ([request one](https://rdicons.vimalbhatt.com/request-icon))
 
 ## License
