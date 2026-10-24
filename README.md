@@ -13,23 +13,23 @@
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-602-4f46e5">
-  <img alt="animated" src="https://img.shields.io/badge/animated-602-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-622-4f46e5">
+  <img alt="animated" src="https://img.shields.io/badge/animated-622-4f46e5">
   <img alt="grid" src="https://img.shields.io/badge/grid-24%C3%9724-informational">
   <img alt="stroke" src="https://img.shields.io/badge/stroke-1.5px-informational">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-**rd** is a free line-icon library: **602 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
+**rd** is a free line-icon library: **622 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
 
 - **Free for everything.** MIT license, personal and commercial, no attribution needed.
 - **Adjustable by design.** A light default stroke, so you can make it bolder or thinner in CSS, Figma or code.
-- **Alive.** All 602 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
-- **Light.** An average of 290 bytes per icon; the whole set is 21.9 KB gzipped.
+- **Alive.** All 622 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
+- **Light.** An average of 292 bytes per icon; the whole set is 23.0 KB gzipped.
 
 <p align="center">
-  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 602 rd icons" width="100%">
-  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 602 rd icons" width="100%">
+  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 622 rd icons" width="100%">
+  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 622 rd icons" width="100%">
 </p>
 
 ## Animated preview
@@ -102,7 +102,7 @@ npx rdicons add rd:bell rd:rocket rd:heart --format tsx --out src/icons
 
 ### 5. Figma plugin
 
-Search all 602 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
+Search all 622 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
@@ -151,13 +151,13 @@ Full guide: [STYLE.md](STYLE.md).
 
 | | |
 | --- | --- |
-| Icons | **602** |
-| Animated | **602** |
-| Categories | 68 |
-| Average SVG | 290 bytes |
-| All SVGs | 170.7 KB (602 files) |
-| `icons.json` | 166.7 KB (21.9 KB gzipped), Iconify format |
-| `animations.json` | 701.3 KB (69.5 KB gzipped) |
+| Icons | **622** |
+| Animated | **622** |
+| Categories | 70 |
+| Average SVG | 292 bytes |
+| All SVGs | 177.2 KB (622 files) |
+| `icons.json` | 173.0 KB (23.0 KB gzipped), Iconify format |
+| `animations.json` | 721.1 KB (71.9 KB gzipped) |
 | Licence | MIT |
 | Last updated | 2026-10-24 |
 
@@ -165,8 +165,8 @@ Full guide: [STYLE.md](STYLE.md).
 
 | Path | What it is |
 | --- | --- |
-| [`svg/`](svg) | 602 static icons |
-| [`svg-animated/`](svg-animated) | 602 animated icons, one self-contained file each |
+| [`svg/`](svg) | 622 static icons |
+| [`svg-animated/`](svg-animated) | 622 animated icons, one self-contained file each |
 | `icons.json` | all icons in the [Iconify](https://iconify.design) format |
 | `animations.json` | the animated drawing and CSS of each icon |
 | [`docs/`](docs) | the images used on this page |
@@ -244,6 +244,8 @@ Full guide: [STYLE.md](STYLE.md).
 | Home and science | 3 | `bath`, `cloud-moon`, `flask-conical` |
 | Developer tools | 14 | `git-compare`, `server-off`, `database-plus`, `database-check`, `monitor-check`, … |
 | Business and money | 12 | `badge-percent`, `badge-dollar-sign`, `stamp`, `building-2`, `factory`, … |
+| Weather and landscape | 8 | `cloud-hail`, `thermometer-sun`, `thermometer-snowflake`, `tornado`, `haze`, … |
+| Plants and animals | 12 | `flower`, `cactus`, `palm-tree`, `wheat`, `trees`, … |
 
 <details>
 <summary>Every icon name, by category</summary>
@@ -451,6 +453,12 @@ Full guide: [STYLE.md](STYLE.md).
 
 **Business and money** (12)
 `badge-percent` `badge-dollar-sign` `stamp` `building-2` `factory` `warehouse` `file-dollar` `target-arrow` `cart-plus` `cart-check` `cart-x` `receipt-check`
+
+**Weather and landscape** (8)
+`cloud-hail` `thermometer-sun` `thermometer-snowflake` `tornado` `haze` `mountain-snow` `volcano` `campfire`
+
+**Plants and animals** (12)
+`flower` `cactus` `palm-tree` `wheat` `trees` `feather` `bird` `butterfly` `turtle` `snail` `bee` `shell`
 
 </details>
 
