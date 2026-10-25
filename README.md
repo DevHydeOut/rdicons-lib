@@ -109,6 +109,16 @@ Same names and props as the React package: `<Bell animate />`, `<Rocket animate=
 npx rdicons add rd:bell rd:rocket rd:heart --format tsx --out src/icons
 npx rdicons add rd:bell --animated --format tsx   # animated component
 npx rdicons migrate                               # preview switching your lucide / tabler / phosphor / heroicons imports to another library
+npx rdicons audit src                             # which icon libraries does the project use? (add --strict for CI)
+```
+
+As a GitHub Action, to keep a project on one icon library:
+
+```yaml
+- uses: actions/checkout@v4
+- uses: DevHydeOut/rdicons-lib@main
+  with:
+    path: src      # fails when libraries are mixed, an icon is used twice, or a library needs credit
 ```
 
 More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections) (dashboard, e-commerce, finance, weather and more), the [pack builder](https://rdicons.vimalbhatt.com/pack) with one-click starter packs, the [consistency checker](https://rdicons.vimalbhatt.com/check) for mixed icon sets, [compare an icon across libraries](https://rdicons.vimalbhatt.com/match), and the [icon of the week](https://rdicons.vimalbhatt.com/icon-of-the-week).

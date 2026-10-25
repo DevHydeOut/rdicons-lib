@@ -1,0 +1,38 @@
+name: 'rdicons icon audit'
+description: 'Fails a workflow when a project mixes icon libraries, uses the same icon from two libraries, or uses a library that requires credit (CC BY).'
+author: 'rdicons'
+branding:
+  icon: 'check-circle'
+  color: 'blue'
+
+inputs:
+  path:
+    description: 'Folder or files to check (space separated)'
+    required: false
+    default: 'src'
+  strict:
+    description: 'Fail the job when something needs attention ("true" or "false"). With "false" the report is only printed.'
+    required: false
+    default: 'true'
+  version:
+    description: 'Version of the rdicons command line tool to run'
+    required: false
+    default: 'latest'
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    - name: Audit icons
+      shell: bash
+      env:
+        RD_PATH: ${{ inputs.path }}
+        RD_STRICT: ${{ inputs.strict }}
+        RD_VERSION: ${{ inputs.version }}
+      run: |
+        flag=""
+        if [ "$RD_STRICT" = "true" ]; then flag="--strict"; fi
+        # shellcheck disable=SC2086
+        npx --yes "rdicons@${RD_VERSION}" audit $RD_PATH $flag
