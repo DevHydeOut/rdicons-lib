@@ -101,13 +101,17 @@ npm i @rdicons/vue-rd       # Vue 3
 npm i @rdicons/svelte-rd    # Svelte 5
 ```
 
-Same names and props as the React package: `<Bell animate />`, `<Rocket animate="loop" speed={1.5} />`. Only the rd icons are in these two packages.
+Same names and props as the React package: `<Bell animate />`, `<Rocket animate="loop" speed={1.5} />`. Only the rd icons are in these two packages. For all 19 libraries use `@rdicons/vue` and `@rdicons/svelte` (one import path per library, for example `@rdicons/vue/lucide`).
 
 ### 5. The command line (npm)
 
 ```bash
 npx rdicons add rd:bell rd:rocket rd:heart --format tsx --out src/icons
+npx rdicons add rd:bell --animated --format tsx   # animated component
+npx rdicons migrate                               # preview switching your lucide / tabler / phosphor / heroicons imports to another library
 ```
+
+More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections) (dashboard, e-commerce, finance, weather and more), the [pack builder](https://rdicons.vimalbhatt.com/pack) with one-click starter packs, the [consistency checker](https://rdicons.vimalbhatt.com/check) for mixed icon sets, [compare an icon across libraries](https://rdicons.vimalbhatt.com/match), and the [icon of the week](https://rdicons.vimalbhatt.com/icon-of-the-week).
 
 ### 6. Figma plugin
 
@@ -168,7 +172,7 @@ Full guide: [STYLE.md](STYLE.md).
 | `icons.json` | 177.9 KB (23.7 KB gzipped), Iconify format |
 | `animations.json` | 735.7 KB (73.6 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-10-24 |
+| Last updated | 2026-10-25 |
 
 ## What is in this repo
 
@@ -490,7 +494,7 @@ Full guide: [STYLE.md](STYLE.md).
 ## Roadmap
 
 - Figma Community listing (the plugin is in review)
-- Vue and Svelte packages for the other 18 libraries
+- a VS Code extension and a project icon audit in the command line
 - more icons, driven by what people ask for ([request one](https://rdicons.vimalbhatt.com/request-icon))
 
 ## License
