@@ -103,13 +103,28 @@ npm i @rdicons/svelte-rd    # Svelte 5
 
 Same names and props as the React package: `<Bell animate />`, `<Rocket animate="loop" speed={1.5} />`. Only the rd icons are in these two packages. For all 19 libraries use `@rdicons/vue` and `@rdicons/svelte` (one import path per library, for example `@rdicons/vue/lucide`).
 
-### 5. The command line (npm)
+### 5. React Native (npm)
+
+```bash
+npm i @rdicons/react-native react-native-svg
+```
+
+```tsx
+import { Bell } from '@rdicons/react-native/rd'
+
+<Bell size={24} color="#4f46e5" />
+```
+
+All 19 libraries, one import path each. No animation in this package yet.
+
+### 6. The command line (npm)
 
 ```bash
 npx rdicons add rd:bell rd:rocket rd:heart --format tsx --out src/icons
 npx rdicons add rd:bell --animated --format tsx   # animated component
 npx rdicons migrate                               # preview switching your lucide / tabler / phosphor / heroicons imports to another library
 npx rdicons audit src                             # which icon libraries does the project use? (add --strict for CI)
+npx rdicons add rd:folder --format rn             # a React Native (react-native-svg) component; --duotone and --gradient work too
 ```
 
 As a GitHub Action, to keep a project on one icon library:
@@ -123,13 +138,13 @@ As a GitHub Action, to keep a project on one icon library:
 
 More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections) (dashboard, e-commerce, finance, weather and more), the [pack builder](https://rdicons.vimalbhatt.com/pack) with one-click starter packs, the [consistency checker](https://rdicons.vimalbhatt.com/check) for mixed icon sets, [compare an icon across libraries](https://rdicons.vimalbhatt.com/match), and the [icon of the week](https://rdicons.vimalbhatt.com/icon-of-the-week).
 
-### 6. Figma plugin
+### 7. Figma plugin
 
 Search all 638 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
-### 7. Desktop app
+### 8. Desktop app
 
 A small Windows app to search, customise and export icons without the browser: [download](https://rdicons.vimalbhatt.com/download/desktop).
 
@@ -180,9 +195,9 @@ Full guide: [STYLE.md](STYLE.md).
 | Average SVG | 292 bytes |
 | All SVGs | 182.1 KB (638 files) |
 | `icons.json` | 177.9 KB (23.7 KB gzipped), Iconify format |
-| `animations.json` | 735.7 KB (73.6 KB gzipped) |
+| `animations.json` | 735.7 KB (73.5 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-10-25 |
+| Last updated | 2026-10-26 |
 
 ## What is in this repo
 
