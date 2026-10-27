@@ -92,6 +92,8 @@ import { Home, Bell, Rocket } from '@rdicons/react-rd'
 | `strokeWidth` | `1.5` | stroke width |
 | `animate` | off | `true` or `"hover"`, `"parent"`, `"play"`, `"loop"` |
 | `speed` | `1` | `2` is twice as fast, `0.5` twice as slow |
+| `duotone` | off | a soft second tone inside closed shapes: `true`, a strength (0.05 to 0.6), a color, or `{ color, opacity }` |
+| `gradient` | off | the line runs from one color to another: `['#ec4899', '#4f46e5']`, with an angle as a third item |
 | `className`, … | | any SVG prop is passed through |
 
 ### 4. Vue and Svelte (npm)
@@ -115,7 +117,7 @@ import { Bell } from '@rdicons/react-native/rd'
 <Bell size={24} color="#4f46e5" />
 ```
 
-All 19 libraries, one import path each. No animation in this package yet.
+All 19 libraries, one import path each. The rd icons animate: `<Bell animate />`, `animate="loop"`.
 
 ### 6. The command line (npm)
 
@@ -197,7 +199,7 @@ Full guide: [STYLE.md](STYLE.md).
 | `icons.json` | 177.9 KB (23.7 KB gzipped), Iconify format |
 | `animations.json` | 735.7 KB (73.5 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-10-26 |
+| Last updated | 2026-10-27 |
 
 ## What is in this repo
 
