@@ -13,23 +13,23 @@
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-638-4f46e5">
-  <img alt="animated" src="https://img.shields.io/badge/animated-638-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-702-4f46e5">
+  <img alt="animated" src="https://img.shields.io/badge/animated-702-4f46e5">
   <img alt="grid" src="https://img.shields.io/badge/grid-24%C3%9724-informational">
   <img alt="stroke" src="https://img.shields.io/badge/stroke-1.5px-informational">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-**rd** is a free line-icon library: **638 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
+**rd** is a free line-icon library: **702 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
 
 - **Free for everything.** MIT license, personal and commercial, no attribution needed.
 - **Adjustable by design.** A light default stroke, so you can make it bolder or thinner in CSS, Figma or code.
-- **Alive.** All 638 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
-- **Light.** An average of 292 bytes per icon; the whole set is 23.7 KB gzipped.
+- **Alive.** All 702 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
+- **Light.** An average of 299 bytes per icon; the whole set is 27.1 KB gzipped.
 
 <p align="center">
-  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 638 rd icons" width="100%">
-  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 638 rd icons" width="100%">
+  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 702 rd icons" width="100%">
+  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 702 rd icons" width="100%">
 </p>
 
 ## Animated preview
@@ -142,7 +142,7 @@ More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections)
 
 ### 7. Figma plugin
 
-Search all 638 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
+Search all 702 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
@@ -191,22 +191,22 @@ Full guide: [STYLE.md](STYLE.md).
 
 | | |
 | --- | --- |
-| Icons | **638** |
-| Animated | **638** |
-| Categories | 73 |
-| Average SVG | 292 bytes |
-| All SVGs | 182.1 KB (638 files) |
-| `icons.json` | 177.9 KB (23.7 KB gzipped), Iconify format |
-| `animations.json` | 735.7 KB (73.5 KB gzipped) |
+| Icons | **702** |
+| Animated | **702** |
+| Categories | 80 |
+| Average SVG | 299 bytes |
+| All SVGs | 205.2 KB (702 files) |
+| `icons.json` | 200.7 KB (27.1 KB gzipped), Iconify format |
+| `animations.json` | 805.9 KB (80.9 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-10-27 |
+| Last updated | 2026-10-30 |
 
 ## What is in this repo
 
 | Path | What it is |
 | --- | --- |
-| [`svg/`](svg) | 638 static icons |
-| [`svg-animated/`](svg-animated) | 638 animated icons, one self-contained file each |
+| [`svg/`](svg) | 702 static icons |
+| [`svg-animated/`](svg-animated) | 702 animated icons, one self-contained file each |
 | `icons.json` | all icons in the [Iconify](https://iconify.design) format |
 | `animations.json` | the animated drawing and CSS of each icon |
 | [`docs/`](docs) | the images used on this page |
@@ -289,6 +289,13 @@ Full guide: [STYLE.md](STYLE.md).
 | People and fun | 7 | `party-popper`, `radio-tower`, `message-circle-heart`, `football`, `binoculars`, … |
 | Learning and time | 5 | `chalkboard`, `highlighter`, `stopwatch`, `calendar-clock`, `calendar-days` |
 | More interface | 4 | `move-diagonal`, `fullscreen`, `scan-search`, `list-filter` |
+| Edit and design | 8 | `eraser`, `paint-bucket`, `flip-horizontal`, `flip-vertical`, `square-dashed`, … |
+| Phone and contacts | 8 | `phone-incoming`, `phone-outgoing`, `phone-missed`, `phone-off`, `contact`, … |
+| Places and money | 8 | `piggy-bank`, `hospital`, `school`, `ambulance`, `map-pin-plus`, … |
+| Body, nature and tech | 8 | `brain`, `tooth`, `bomb`, `skull`, `audio-lines`, … |
+| Files, folders and dates | 15 | `file-audio`, `file-video`, `file-clock`, `file-pen`, `file-heart`, … |
+| Media and badges | 8 | `image-minus`, `image-off`, `video-plus`, `badge-alert`, `badge-x`, … |
+| Tech and layout | 9 | `binary`, `ethernet-port`, `wifi-low`, `battery-warning`, `panel-left-close`, … |
 
 <details>
 <summary>Every icon name, by category</summary>
@@ -511,6 +518,27 @@ Full guide: [STYLE.md](STYLE.md).
 
 **More interface** (4)
 `move-diagonal` `fullscreen` `scan-search` `list-filter`
+
+**Edit and design** (8)
+`eraser` `paint-bucket` `flip-horizontal` `flip-vertical` `square-dashed` `pointer-click` `shapes` `spray-can`
+
+**Phone and contacts** (8)
+`phone-incoming` `phone-outgoing` `phone-missed` `phone-off` `contact` `image-plus` `images` `mails`
+
+**Places and money** (8)
+`piggy-bank` `hospital` `school` `ambulance` `map-pin-plus` `map-pin-off` `hotel` `church`
+
+**Body, nature and tech** (8)
+`brain` `tooth` `bomb` `skull` `audio-lines` `clapperboard` `satellite-dish` `sword`
+
+**Files, folders and dates** (15)
+`file-audio` `file-video` `file-clock` `file-pen` `file-heart` `file-question` `folder-clock` `folder-heart` `folder-pen` `folder-x` `calendar-minus` `calendar-search` `calendar-heart` `mail-search` `mail-warning`
+
+**Media and badges** (8)
+`image-minus` `image-off` `video-plus` `badge-alert` `badge-x` `badge-info` `volume-2` `pen-line`
+
+**Tech and layout** (9)
+`binary` `ethernet-port` `wifi-low` `battery-warning` `panel-left-close` `panel-left-open` `scan-face` `scan-eye` `archive-restore`
 
 </details>
 
