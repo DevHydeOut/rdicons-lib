@@ -195,11 +195,11 @@ Full guide: [STYLE.md](STYLE.md).
 | Animated | **702** |
 | Categories | 80 |
 | Average SVG | 299 bytes |
-| All SVGs | 205.2 KB (702 files) |
-| `icons.json` | 200.7 KB (27.1 KB gzipped), Iconify format |
+| All SVGs | 205.3 KB (702 files) |
+| `icons.json` | 200.8 KB (27.1 KB gzipped), Iconify format |
 | `animations.json` | 805.9 KB (80.9 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-10-30 |
+| Last updated | 2026-11-02 |
 
 ## What is in this repo
 
