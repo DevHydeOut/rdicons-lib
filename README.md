@@ -13,23 +13,23 @@
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-702-4f46e5">
-  <img alt="animated" src="https://img.shields.io/badge/animated-702-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-792-4f46e5">
+  <img alt="animated" src="https://img.shields.io/badge/animated-792-4f46e5">
   <img alt="grid" src="https://img.shields.io/badge/grid-24%C3%9724-informational">
   <img alt="stroke" src="https://img.shields.io/badge/stroke-1.5px-informational">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-**rd** is a free line-icon library: **702 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
+**rd** is a free line-icon library: **792 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
 
 - **Free for everything.** MIT license, personal and commercial, no attribution needed.
 - **Adjustable by design.** A light default stroke, so you can make it bolder or thinner in CSS, Figma or code.
-- **Alive.** All 702 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
-- **Light.** An average of 299 bytes per icon; the whole set is 27.1 KB gzipped.
+- **Alive.** All 792 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
+- **Light.** An average of 297 bytes per icon; the whole set is 29.7 KB gzipped.
 
 <p align="center">
-  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 702 rd icons" width="100%">
-  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 702 rd icons" width="100%">
+  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 792 rd icons" width="100%">
+  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 792 rd icons" width="100%">
 </p>
 
 ## Animated preview
@@ -142,7 +142,7 @@ More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections)
 
 ### 7. Figma plugin
 
-Search all 702 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
+Search all 792 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
@@ -191,22 +191,22 @@ Full guide: [STYLE.md](STYLE.md).
 
 | | |
 | --- | --- |
-| Icons | **702** |
-| Animated | **702** |
-| Categories | 80 |
-| Average SVG | 299 bytes |
-| All SVGs | 205.3 KB (702 files) |
-| `icons.json` | 200.8 KB (27.1 KB gzipped), Iconify format |
-| `animations.json` | 805.9 KB (80.9 KB gzipped) |
+| Icons | **792** |
+| Animated | **792** |
+| Categories | 84 |
+| Average SVG | 297 bytes |
+| All SVGs | 229.9 KB (792 files) |
+| `icons.json` | 225.1 KB (29.7 KB gzipped), Iconify format |
+| `animations.json` | 885.8 KB (88.3 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-11-02 |
+| Last updated | 2026-11-11 |
 
 ## What is in this repo
 
 | Path | What it is |
 | --- | --- |
-| [`svg/`](svg) | 702 static icons |
-| [`svg-animated/`](svg-animated) | 702 animated icons, one self-contained file each |
+| [`svg/`](svg) | 792 static icons |
+| [`svg-animated/`](svg-animated) | 792 animated icons, one self-contained file each |
 | `icons.json` | all icons in the [Iconify](https://iconify.design) format |
 | `animations.json` | the animated drawing and CSS of each icon |
 | [`docs/`](docs) | the images used on this page |
@@ -296,6 +296,10 @@ Full guide: [STYLE.md](STYLE.md).
 | Files, folders and dates | 15 | `file-audio`, `file-video`, `file-clock`, `file-pen`, `file-heart`, … |
 | Media and badges | 8 | `image-minus`, `image-off`, `video-plus`, `badge-alert`, `badge-x`, … |
 | Tech and layout | 9 | `binary`, `ethernet-port`, `wifi-low`, `battery-warning`, `panel-left-close`, … |
+| Align, signal and symbols | 27 | `align-start-vertical`, `align-center-vertical`, `align-end-vertical`, `align-start-horizontal`, `align-center-horizontal`, … |
+| Arrows, treats and sports | 26 | `arrow-up-right-circle`, `arrow-down-right-circle`, `arrow-down-left-circle`, `arrow-up-left-circle`, `arrow-up-right-square`, … |
+| Copy, type and objects | 18 | `copy-check`, `copy-plus`, `copy-minus`, `copy-x`, `case-sensitive`, … |
+| Arrows, shapes and devices | 19 | `arrow-up-from-line`, `arrow-down-from-line`, `arrow-left-from-line`, `arrow-right-from-line`, `arrow-down-to-dot`, … |
 
 <details>
 <summary>Every icon name, by category</summary>
@@ -539,6 +543,18 @@ Full guide: [STYLE.md](STYLE.md).
 
 **Tech and layout** (9)
 `binary` `ethernet-port` `wifi-low` `battery-warning` `panel-left-close` `panel-left-open` `scan-face` `scan-eye` `archive-restore`
+
+**Align, signal and symbols** (27)
+`align-start-vertical` `align-center-vertical` `align-end-vertical` `align-start-horizontal` `align-center-horizontal` `align-end-horizontal` `move-horizontal` `move-vertical` `rotate-cw` `rotate-ccw` `repeat-1` `panel-right-close` `panel-right-open` `signal-low` `signal-medium` `signal-high` `list-x` `text-wrap` `less-than` `greater-than` `less-than-or-equal` `greater-than-or-equal` `slash` `spline` `circle-dashed` `badge-plus` `badge-minus`
+
+**Arrows, treats and sports** (26)
+`arrow-up-right-circle` `arrow-down-right-circle` `arrow-down-left-circle` `arrow-up-left-circle` `arrow-up-right-square` `arrow-down-right-square` `arrow-down-left-square` `arrow-up-left-square` `donut` `candy` `lollipop` `milk` `cupcake` `cooking-pot` `baseball` `bowling-ball` `tennis-ball` `golf` `chess-pawn` `chess-rook` `chevron-first` `chevron-last` `fold-vertical` `unfold-vertical` `fold-horizontal` `unfold-horizontal`
+
+**Copy, type and objects** (18)
+`copy-check` `copy-plus` `copy-minus` `copy-x` `case-sensitive` `case-upper` `case-lower` `heading-1` `heading-2` `bucket` `ladder` `fence` `circle-ellipsis` `square-ellipsis` `badge-question` `columns-3` `rows-3` `lamp-ceiling`
+
+**Arrows, shapes and devices** (19)
+`arrow-up-from-line` `arrow-down-from-line` `arrow-left-from-line` `arrow-right-from-line` `arrow-down-to-dot` `arrow-up-from-dot` `rectangle-vertical` `triangle-right` `parallelogram` `trapezoid` `ellipse` `cone` `cylinder` `sphere` `pyramid` `monitor-play` `smartphone-charging` `backslash` `diameter`
 
 </details>
 
