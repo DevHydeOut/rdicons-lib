@@ -13,23 +13,23 @@
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-792-4f46e5">
-  <img alt="animated" src="https://img.shields.io/badge/animated-792-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-816-4f46e5">
+  <img alt="animated" src="https://img.shields.io/badge/animated-816-4f46e5">
   <img alt="grid" src="https://img.shields.io/badge/grid-24%C3%9724-informational">
   <img alt="stroke" src="https://img.shields.io/badge/stroke-1.5px-informational">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-**rd** is a free line-icon library: **792 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
+**rd** is a free line-icon library: **816 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
 
 - **Free for everything.** MIT license, personal and commercial, no attribution needed.
 - **Adjustable by design.** A light default stroke, so you can make it bolder or thinner in CSS, Figma or code.
-- **Alive.** All 792 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
-- **Light.** An average of 297 bytes per icon; the whole set is 29.7 KB gzipped.
+- **Alive.** All 816 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
+- **Light.** An average of 297 bytes per icon; the whole set is 30.1 KB gzipped.
 
 <p align="center">
-  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 792 rd icons" width="100%">
-  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 792 rd icons" width="100%">
+  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 816 rd icons" width="100%">
+  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 816 rd icons" width="100%">
 </p>
 
 ## Animated preview
@@ -142,7 +142,7 @@ More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections)
 
 ### 7. Figma plugin
 
-Search all 792 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
+Search all 816 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
@@ -191,22 +191,22 @@ Full guide: [STYLE.md](STYLE.md).
 
 | | |
 | --- | --- |
-| Icons | **792** |
-| Animated | **792** |
-| Categories | 84 |
+| Icons | **816** |
+| Animated | **816** |
+| Categories | 85 |
 | Average SVG | 297 bytes |
-| All SVGs | 229.9 KB (792 files) |
-| `icons.json` | 225.1 KB (29.7 KB gzipped), Iconify format |
-| `animations.json` | 885.8 KB (88.3 KB gzipped) |
+| All SVGs | 236.6 KB (816 files) |
+| `icons.json` | 231.7 KB (30.1 KB gzipped), Iconify format |
+| `animations.json` | 907.6 KB (89.9 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-11-11 |
+| Last updated | 2026-11-13 |
 
 ## What is in this repo
 
 | Path | What it is |
 | --- | --- |
-| [`svg/`](svg) | 792 static icons |
-| [`svg-animated/`](svg-animated) | 792 animated icons, one self-contained file each |
+| [`svg/`](svg) | 816 static icons |
+| [`svg-animated/`](svg-animated) | 816 animated icons, one self-contained file each |
 | `icons.json` | all icons in the [Iconify](https://iconify.design) format |
 | `animations.json` | the animated drawing and CSS of each icon |
 | [`docs/`](docs) | the images used on this page |
@@ -300,6 +300,7 @@ Full guide: [STYLE.md](STYLE.md).
 | Arrows, treats and sports | 26 | `arrow-up-right-circle`, `arrow-down-right-circle`, `arrow-down-left-circle`, `arrow-up-left-circle`, `arrow-up-right-square`, … |
 | Copy, type and objects | 18 | `copy-check`, `copy-plus`, `copy-minus`, `copy-x`, `case-sensitive`, … |
 | Arrows, shapes and devices | 19 | `arrow-up-from-line`, `arrow-down-from-line`, `arrow-left-from-line`, `arrow-right-from-line`, `arrow-down-to-dot`, … |
+| Chevrons, panels and badges | 24 | `circle-chevron-up`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `square-chevron-up`, … |
 
 <details>
 <summary>Every icon name, by category</summary>
@@ -555,6 +556,9 @@ Full guide: [STYLE.md](STYLE.md).
 
 **Arrows, shapes and devices** (19)
 `arrow-up-from-line` `arrow-down-from-line` `arrow-left-from-line` `arrow-right-from-line` `arrow-down-to-dot` `arrow-up-from-dot` `rectangle-vertical` `triangle-right` `parallelogram` `trapezoid` `ellipse` `cone` `cylinder` `sphere` `pyramid` `monitor-play` `smartphone-charging` `backslash` `diameter`
+
+**Chevrons, panels and badges** (24)
+`circle-chevron-up` `circle-chevron-down` `circle-chevron-left` `circle-chevron-right` `square-chevron-up` `square-chevron-down` `square-chevron-left` `square-chevron-right` `panel-top-close` `panel-top-open` `panel-bottom-close` `panel-bottom-open` `diamond-plus` `diamond-minus` `diamond-x` `octagon-x` `octagon-minus` `circle-percent` `lamp-floor` `book-marked` `map-pin-check` `map-pin-x` `square-slash` `square-dot`
 
 </details>
 
