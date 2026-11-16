@@ -13,23 +13,23 @@
 </p>
 
 <p align="center">
-  <img alt="icons" src="https://img.shields.io/badge/icons-843-4f46e5">
-  <img alt="animated" src="https://img.shields.io/badge/animated-843-4f46e5">
+  <img alt="icons" src="https://img.shields.io/badge/icons-1000-4f46e5">
+  <img alt="animated" src="https://img.shields.io/badge/animated-1000-4f46e5">
   <img alt="grid" src="https://img.shields.io/badge/grid-24%C3%9724-informational">
   <img alt="stroke" src="https://img.shields.io/badge/stroke-1.5px-informational">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-**rd** is a free line-icon library: **843 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
+**rd** is a free line-icon library: **1000 icons** on a 24 × 24 grid, drawn with a 1.5 px stroke, round caps and joins, and one signature detail: shapes that hold something (a folder, a window, a card, a calendar) keep a small **open corner at the top right**. Every icon has a built-in animation.
 
 - **Free for everything.** MIT license, personal and commercial, no attribution needed.
 - **Adjustable by design.** A light default stroke, so you can make it bolder or thinner in CSS, Figma or code.
-- **Alive.** All 843 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
-- **Light.** An average of 297 bytes per icon; the whole set is 31.2 KB gzipped.
+- **Alive.** All 1000 icons animate: strokes draw in, lids lift, steam rises, eyes blink. Pure CSS, no JavaScript, reduced-motion aware.
+- **Light.** An average of 300 bytes per icon; the whole set is 35.4 KB gzipped.
 
 <p align="center">
-  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 843 rd icons" width="100%">
-  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 843 rd icons" width="100%">
+  <img src="docs/overview-light.png#gh-light-mode-only" alt="All 1000 rd icons" width="100%">
+  <img src="docs/overview-dark.png#gh-dark-mode-only" alt="All 1000 rd icons" width="100%">
 </p>
 
 ## Animated preview
@@ -142,7 +142,7 @@ More on the site: [icon collections](https://rdicons.vimalbhatt.com/collections)
 
 ### 7. Figma plugin
 
-Search all 843 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
+Search all 1000 icons (plus 18 other open libraries) inside Figma, change colour and stroke, and drop them on the canvas as editable vectors or components. The plugin is in review for the Figma Community.
 
 <p align="center"><img src="docs/figma-plugin.png" alt="The rdicons Figma plugin" width="100%"></p>
 
@@ -191,22 +191,22 @@ Full guide: [STYLE.md](STYLE.md).
 
 | | |
 | --- | --- |
-| Icons | **843** |
-| Animated | **843** |
-| Categories | 87 |
-| Average SVG | 297 bytes |
-| All SVGs | 244.3 KB (843 files) |
-| `icons.json` | 239.4 KB (31.2 KB gzipped), Iconify format |
-| `animations.json` | 931.2 KB (92.3 KB gzipped) |
+| Icons | **1000** |
+| Animated | **1000** |
+| Categories | 92 |
+| Average SVG | 300 bytes |
+| All SVGs | 292.9 KB (1000 files) |
+| `icons.json` | 287.3 KB (35.4 KB gzipped), Iconify format |
+| `animations.json` | 1078.1 KB (104.7 KB gzipped) |
 | Licence | MIT |
-| Last updated | 2026-11-13 |
+| Last updated | 2026-11-16 |
 
 ## What is in this repo
 
 | Path | What it is |
 | --- | --- |
-| [`svg/`](svg) | 843 static icons |
-| [`svg-animated/`](svg-animated) | 843 animated icons, one self-contained file each |
+| [`svg/`](svg) | 1000 static icons |
+| [`svg-animated/`](svg-animated) | 1000 animated icons, one self-contained file each |
 | `icons.json` | all icons in the [Iconify](https://iconify.design) format |
 | `animations.json` | the animated drawing and CSS of each icon |
 | [`docs/`](docs) | the images used on this page |
@@ -303,6 +303,11 @@ Full guide: [STYLE.md](STYLE.md).
 | Chevrons, panels and badges | 24 | `circle-chevron-up`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `square-chevron-up`, … |
 | Music, science and tools | 15 | `tie`, `hanger`, `drum`, `music-2`, `metronome`, … |
 | Files, places and nature | 12 | `file-archive`, `file-diff`, `folder-code`, `folder-archive`, `castle`, … |
+| Screens, marks and scans | 36 | `monitor-x`, `monitor-pause`, `monitor-stop`, `monitor-up`, `monitor-down`, … |
+| Layouts, arrows and extras | 24 | `file-type`, `folder-ellipsis`, `folder-dot`, `folder-question`, `message-square-x`, … |
+| Devices, dice and arrows | 30 | `pause-square`, `stop-square`, `chevrons-left-right`, `chevrons-right-left`, `corner-right-down`, … |
+| Marks, charts and kitchen | 28 | `bell-x`, `bell-check`, `octagon-check`, `octagon-plus`, `triangle-plus`, … |
+| Search, phone and off marks | 39 | `search-x`, `search-check`, `search-slash`, `search-code`, `phone-plus`, … |
 
 <details>
 <summary>Every icon name, by category</summary>
@@ -567,6 +572,21 @@ Full guide: [STYLE.md](STYLE.md).
 
 **Files, places and nature** (12)
 `file-archive` `file-diff` `folder-code` `folder-archive` `castle` `lighthouse` `tulip` `hexagon-plus` `hexagon-minus` `hexagon-x` `database-x` `database-minus`
+
+**Screens, marks and scans** (36)
+`monitor-x` `monitor-pause` `monitor-stop` `monitor-up` `monitor-down` `monitor-dot` `smartphone-x` `smartphone-check` `smartphone-plus` `smartphone-minus` `square-percent` `square-asterisk` `square-equal` `square-divide` `square-power` `square-parking` `circle-power` `circle-parking` `circle-equal` `circle-divide` `hexagon-check` `diamond-check` `octagon-pause` `pentagon-plus` `pentagon-minus` `pentagon-x` `pentagon-check` `shield-minus` `shield-ellipsis` `cloud-minus` `calendar-arrow-up` `calendar-arrow-down` `scan-barcode` `scan-qr-code` `scan-heart` `scan-check`
+
+**Layouts, arrows and extras** (24)
+`file-type` `folder-ellipsis` `folder-dot` `folder-question` `message-square-x` `message-square-check` `message-square-minus` `message-square-heart` `message-square-warning` `message-warning` `columns-4` `layout-panel-left` `layout-panel-top` `layout-template` `arrow-big-up-dash` `arrow-big-down-dash` `arrow-big-left-dash` `arrow-big-right-dash` `package-minus` `cart-minus` `map-pin-minus` `clipboard-minus` `badge-euro` `badge-yen`
+
+**Devices, dice and arrows** (30)
+`pause-square` `stop-square` `chevrons-left-right` `chevrons-right-left` `corner-right-down` `corner-right-up` `corner-left-down` `corner-left-up` `undo-2` `redo-2` `laptop-x` `laptop-check` `laptop-plus` `laptop-minus` `tablet-x` `tablet-check` `tablet-plus` `tablet-minus` `tv-x` `tv-check` `tv-plus` `tv-minus` `tag-plus` `tag-minus` `tag-x` `dice-1` `dice-2` `dice-3` `dice-4` `dice-6`
+
+**Marks, charts and kitchen** (28)
+`bell-x` `bell-check` `octagon-check` `octagon-plus` `triangle-plus` `triangle-minus` `triangle-x` `triangle-check` `square-sigma` `square-pi` `square-menu` `square-activity` `square-kanban` `chart-no-axes-column` `chart-no-axes-column-decreasing` `chart-no-axes-gantt` `arrow-down-narrow-wide` `arrow-up-wide-narrow` `circle-dot-dashed` `spoon` `fork` `knife` `file-eye` `video-minus` `panel-left-dashed` `panel-right-dashed` `panel-top-dashed` `panel-bottom-dashed`
+
+**Search, phone and off marks** (39)
+`search-x` `search-check` `search-slash` `search-code` `phone-plus` `phone-minus` `phone-x` `phone-check` `ticket-check` `ticket-x` `ticket-plus` `ticket-minus` `credit-card-plus` `credit-card-minus` `credit-card-x` `credit-card-check` `printer-check` `printer-x` `bluetooth-connected` `bluetooth-searching` `flag-triangle-right` `flag-triangle-left` `alarm-clock-check` `alarm-clock-plus` `alarm-clock-minus` `alarm-clock-x` `battery-plus` `milk-off` `wheat-off` `egg-off` `nut-off` `monitor-off` `tv-off` `smartphone-off` `laptop-off` `tablet-off` `diamond-percent` `hexagon-pause` `pentagon-pause`
 
 </details>
 
